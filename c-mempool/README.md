@@ -140,6 +140,7 @@ void memory_pool_clear(memory_pool_t *mp)
 }
 ```
 上面的构建过程如下图所示
+![内存池构建过程](https://raw.githubusercontent.com/zyfjeff/C-HOW-TO/master/c-mempool/mempool-create.png)
 
 内存池对象已经创建完毕，内存块也已经通过单链表链接起来，通过empty_blocks可以高效率的得到第一个可用的内存块。那么
 接下来让我们看看如何分配内存块吧。
